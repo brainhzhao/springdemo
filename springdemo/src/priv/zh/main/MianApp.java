@@ -11,6 +11,7 @@ public class MianApp {
 		BeanFactory bf=new ClassPathXmlApplicationContext("Beans.xml");
 		Person person=(Person)bf.getBean("person");
 		System.out.println(person);
+		//this is add by github
 		//hello
 	}
 }
